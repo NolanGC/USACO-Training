@@ -1,0 +1,19 @@
+
+
+
+#for cow in range(1, N + 1):
+#    results = [0 for i in range(N)]
+#    for session in sessions:
+#        #cows placement in session
+#        rank = session.index(cow)
+#        #all who scored lower
+#        for i in range(rank + 1, len(session)):
+#            results[session[i] - 1] += 1
+
+#    for i in range(results.count(N - 1)):
+#        q =results.index(N - 1)
+#        pairs.append((cow, q + 1))
+#        results[q] = 0
+#pairs = list(set(pairs))
+#with open('gymnastics.out', 'w') as fout:
+#    fout.write(str(len(pairs)) + '\n')
